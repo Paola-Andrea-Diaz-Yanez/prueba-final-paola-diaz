@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    height: 350px; 
+    padding: 20px;
+    background-color: #d7c9be;
+}
+.inicio{
+    flex: 1;
+    text-align: center;
+}
+.marca{
+    font-size: 80px;
+    font-family: fantasy;
+    color: #463b37;
+    margin-bottom: 5px;
+}
+.eslogan{
+    font-size: 28px;
+    color: #463b37;
+    margin-top: 0px;
+}
+.img-inicio{
+    width: 350px;
+    height:auto;
+    margin-left: 20px;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+.producto{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.img-producto{
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nom-producto{
+    margin: 0 0 5px;
+    font-size: 30px;
+    color: #333;
+}
+.desc-producto{
+    margin: 0;
+    font-size: 25px;
+   color: #555;
+}
+.precio{
+    font-size: 18px;
+    color: #9c373f;
+}
+.footer{
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+   padding: 20px 10px;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+}

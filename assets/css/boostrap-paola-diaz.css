@@ -1,0 +1,106 @@
+.mi-barra {
+  background-color: #28a745;
+}
+.logo-white {
+  height: 25pt;
+  width: 86pt;
+}
+.tarjetas {
+  margin-top: 20pt;
+}
+.titulo {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #212529;
+  font-size: 20pt;
+}
+.nombre-tienda {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #707070;
+  font-size: 16pt;
+  margin-bottom: 0%;
+}
+.ubicacion {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #707070;
+  font-size: 13pt;
+  margin-top: 0%;
+}
+.precio {
+  display: flex;
+  gap: 11pt;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.precio-antes {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #707070;
+  font-size: 16pt;
+}
+.precio-despues {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #28a745;
+  font-size: 20pt;
+  font-weight: 700;
+}
+.formulario-de-cupon {
+  background-color: #28a745;
+  height: 241pt;
+  display: flex;
+}
+.recibir-cupones {
+  color: white;
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 21pt;
+}
+.boton {
+  color: #212529;
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #f8f9fa;
+  border: 1pt solid #dddddd;
+}
+.pie-de-pagina {
+    background-color: #FFFFFF;
+    height: 100pt;
+}
+.logo-black {
+  height: 25pt;
+  width: 86pt;
+}
+.pie {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #707070;
+}

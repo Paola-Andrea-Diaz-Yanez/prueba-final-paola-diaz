@@ -1,0 +1,282 @@
+.fondo-principal {
+  background-image: linear-gradient(
+      rgba(244, 249, 244, 0.25),
+      rgba(244, 249, 244, 0.25)
+    ),
+    url("../img/img-prueba-final/fondo-principal.png");
+  color: #eaeaea;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.barra-de-navegacion {
+  background-color: #ff3cac;
+  color: white;
+}
+.boton-navbar {
+  background-color: #ff3cac;
+  width: 125px;
+  height: 80px;
+  padding: 12px;
+}
+.mi-nombre {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  padding-bottom: 0%;
+}
+.separador {
+  height: 5px;
+  background-color: white;
+  opacity: 1;
+}
+.lead {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 30px;
+  padding-bottom: 0%;
+}
+.sobre-mi {
+  background-color: #1a1a2e;
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+}
+.separador-dos {
+  height: 14px;
+  background-color: #ff3cac;
+  opacity: 1;
+  z-index: 1;
+  border: none;
+}
+.imagen-presentacion {
+  height: 300px;
+  margin-top: -11%;
+}
+.imagen-circular {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.titulo {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: 0px;
+  color: #eaeaea;
+}
+.descripcion-sobre-mi {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 25px;
+  color: #7a8fb6;
+}
+.fa-solid {
+  color: #eaeaea;
+  font-size: 2rem;
+}
+.habilidad {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  margin-top: 25px;
+  color: #eaeaea;
+}
+.descripcion-habilidad {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 20px;
+  color: #7a8fb6;
+}
+.timeline-horizontal {
+  background-color: #aab4d4;
+  padding: 3rem 3rem;
+  margin: 0%;
+  color: #16213e;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.timeline-horizontal h2 {
+  font-size: 4rem;
+}
+.timeline-container {
+  border-top: 3px solid #00bfff;
+  flex-wrap: nowrap;
+}
+.timeline-step {
+  text-align: center;
+  width: 30%;
+  position: relative;
+}
+.timeline-step h5,
+p {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 20px;
+}
+.timeline-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #00bfff;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #00bfff;
+}
+.proyectos {
+  background-color: #16213e;
+  padding-top: 3rem;
+}
+.proyectos h2 {
+  color: #eaeaea;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+.proyectos figcaption {
+  color: #7a8fb6;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 20px;
+}
+.seleccion {
+  overflow: hidden;
+  position: relative;
+}
+.seleccion .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 33, 62, 0.6); /* Velo oscuro */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  z-index:200;
+  pointer-events: none;
+}
+.seleccion:hover .overlay {
+  opacity: 1;
+}
+.contacto{
+  background-color: #aab4d4;
+  min-height: 100vh;
+}
+.contacto h2 {
+  color: #16213e;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+.boton {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+}
+.pie-de-pagina {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+  padding: 1rem 0;
+  position: relative;
+}
+.pie-de-pagina p {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    width: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    transform: none !important;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .titulo {
+    font-size: 3rem;
+    margin-top: -30%;
+  }
+  .descripcion-sobre-mi,
+  .descripcion-habilidad {
+    font-size: 1rem;
+  }
+  .imagen-circular {
+    width: 160px;
+    height: 160px;
+    margin-top: -10%;
+  }
+  .habilidad {
+    font-size: 1.2rem;
+  }
+  .iconos i {
+    font-size: 2rem;
+  }
+  .timeline-container {
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px solid #00bfff;
+    border-top: none;
+    padding-top: 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-horizontal h2 {
+    font-size: 3rem;
+  }
+  .timeline-step {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  .timeline-circle {
+    top: 0;
+    left: -31px;
+    transform: none;
+  }
+  .timeline-step h5,
+  .timeline-step p {
+    margin-left: 1rem;
+  }
+}
